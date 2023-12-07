@@ -1,0 +1,7 @@
+&dos
+    prefix='al',
+    outdir='/Users/virgrammid/Desktop/Lab_3/al/tmp'
+    fildos='al.dos',
+    Emin=-10.0, Emax=20.0, DeltaE=0.05
+
+ /

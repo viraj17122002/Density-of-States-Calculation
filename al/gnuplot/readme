@@ -1,0 +1,6 @@
+
+### Use the provided gnuplot script for generating DOS figure.
+
+1) Edit test.gnu
+2) Run 'gnuplot test.gnu' in the terminal
+

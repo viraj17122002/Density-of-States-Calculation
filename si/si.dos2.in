@@ -1,0 +1,7 @@
+&dos
+    prefix='si',
+    outdir='/Users/virgrammid/Desktop/Lab_3/si/tmp'
+    fildos='si.dos',
+    Emin=-10.0, Emax=20.0, DeltaE=0.05
+
+ /

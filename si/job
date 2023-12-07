@@ -1,0 +1,11 @@
+#!/bin/sh
+
+PARA_PREFIX="mpirun -n 8"
+PARA_POSTFIX=""
+#PARA_POSTFIX="-nk 4 -nd 1 -nb 1 -nt 1"
+BIN_DIR=""
+
+$PARA_PREFIX  pw.x  <  si.scf.in  > si.scf.out
+$PARA_PREFIX  pw.x  <  si.dos1.in > si.dos1.out
+$PARA_PREFIX  dos.x <  si.dos2.in > si.dos2.out
+

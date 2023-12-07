@@ -1,0 +1,47 @@
+
+     Program DOS v.6.6 starts on  6Dec2023 at 10:24:34 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     8 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+     Fft bands division:     nmany     =       1
+
+     Reading xml data from directory:
+
+     /Users/virgrammid/Desktop/Lab_3/si/tmp/si.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          54      54     18                  771      771     149
+     Max          55      55     19                  775      775     152
+     Sum         439     439    151                 6183     6183    1211
+
+
+     Gaussian broadening (default values): ngauss,degauss=   0    0.003675
+
+
+     DOS          :      0.74s CPU      1.87s WALL
+
+
+   This run was terminated on:  10:24:36   6Dec2023            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
